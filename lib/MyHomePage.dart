@@ -261,7 +261,15 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {
                   Navigator.of(context).pushNamed("customscrollview");
                 },
-              )
+
+              ),
+              new FlatButton(
+                child: Text(" ScrollControllerTestRoute"),
+                textColor: Colors.blue,
+                onPressed: () {
+                  Navigator.of(context).pushNamed("ScrollControllerTestRoute");
+                },
+              ),
             ],
           ),
         ),

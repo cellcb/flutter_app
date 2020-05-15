@@ -3,11 +3,12 @@ import 'package:flutterapp/MyHomePage.dart';
 import 'package:flutterapp/padding.dart';
 
 import 'Align.dart';
-import 'CustomScrollViewTestRoute.dart';
+import 'CustomScrollViewTest.dart';
 import 'Flex.dart';
 import 'FormTest.dart';
 import 'RowColumn.dart';
 import 'ScaffoldRoute.dart';
+import 'ScrollControllerTestRoute.dart';
 import 'StackPositioned.dart';
 import 'TapboxA.dart';
 import 'TapboxB.dart';
@@ -57,6 +58,7 @@ class MyApp extends StatelessWidget {
           "padding": (context) => PaddingRoute(),
           "scaffold": (context) => ScaffoldRoute(),
           "customscrollview": (context) => CustomScrollViewTestRoute(),
+          "ScrollControllerTestRoute": (context) => ScrollControllerTestRoute(),
 //          "new_page": (context) => NewRoute(),
 //          "/":(context) => MyHomePage(title: 'Flutter Demo Home Page xxxx'), //注册首页路由
         });
